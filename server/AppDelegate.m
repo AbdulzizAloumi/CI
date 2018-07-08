@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     printf("hello Bot");
+    printf("hello Bot on Dev branch");
+
     // Override point for customization after application launch.
     return YES;
 }
