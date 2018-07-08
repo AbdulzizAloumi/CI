@@ -1,0 +1,1 @@
+curl -X POST https://parse.csdevapps.com/store/parse/classes/Release -H "X-Parse-Application-Id:InHoseStore" -H "Content-Type: application/json" -H "X-Parse-Master-Key:c716887851737544ebadc2095a578ad4" -d @/Users/aaloumi/Desktop/store.txt

@@ -16,6 +16,7 @@
 		702A0EB020F2CD5E00357E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A0EAF20F2CD5E00357E68 /* main.m */; };
 		702A0EBA20F2CD5E00357E68 /* serverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A0EB920F2CD5E00357E68 /* serverTests.m */; };
 		702A0EC520F2CD5E00357E68 /* serverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A0EC420F2CD5E00357E68 /* serverUITests.m */; };
+		702A0ED320F2D2D800357E68 /* release_creator.sh in Resources */ = {isa = PBXBuildFile; fileRef = 702A0ED220F2D2D800357E68 /* release_creator.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		702A0EC020F2CD5E00357E68 /* serverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702A0EC420F2CD5E00357E68 /* serverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = serverUITests.m; sourceTree = "<group>"; };
 		702A0EC620F2CD5E00357E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702A0ED220F2D2D800357E68 /* release_creator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = release_creator.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		702A0E9C20F2CD5C00357E68 /* server */ = {
 			isa = PBXGroup;
 			children = (
+				702A0ED220F2D2D800357E68 /* release_creator.sh */,
 				702A0E9D20F2CD5C00357E68 /* AppDelegate.h */,
 				702A0E9E20F2CD5C00357E68 /* AppDelegate.m */,
 				702A0EA020F2CD5C00357E68 /* ViewController.h */,
@@ -241,6 +244,7 @@
 				702A0EAD20F2CD5E00357E68 /* LaunchScreen.storyboard in Resources */,
 				702A0EAA20F2CD5E00357E68 /* Assets.xcassets in Resources */,
 				702A0EA520F2CD5C00357E68 /* Main.storyboard in Resources */,
+				702A0ED320F2D2D800357E68 /* release_creator.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
