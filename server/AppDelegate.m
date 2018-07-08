@@ -19,6 +19,7 @@
     printf("hello Bot");
       printf("hello Bot on QA branch");
     printf("hello Bot on QA branch");
+    printf("hello Bot on QA branch");
 
     // Override point for customization after application launch.
     return YES;
